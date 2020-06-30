@@ -1,0 +1,141 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.contact-info{
+  text-align: center;
+}
+
+.about-me{
+  margin-left: 5px;
+}
+
+.button{
+  width: 100%;
+  color:white;
+  background-color: darkgoldenrod;
+  font-size: large;
+}
+
+
+.link{
+font-size: 20px;
+color: white;
+}
+.page-name{
+  margin-left: 5px;
+  color: white; 
+  justify-content: center;
+}
+
+.page-skill{
+  margin-left: 5px;
+  color: white; 
+  justify-content: center;
+  
+}
+.email{
+  margin-top: 1rem;
+}
+
+.portfolio-display{
+  background-color: black; opacity: .8;
+ 
+}
+
+.portfolio-display :hover{
+  background-color: none;
+}
+/* 
+.portfolio-image{
+  width: 350px;
+  height: 220px;
+} */
+.portfolio-background{
+  background-image: url("https://i.pinimg.com/736x/a5/c3/ca/a5c3cad4d826b78ec0c0bf444859fd7d.jpg");
+  background-repeat: no-repeat;
+  background-color: black; /* Used if the image is unavailable */
+  height: 100%; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.portfolioDescription {
+  margin-top: 15px;
+}
+
+
+
+.overflow {
+	overflow: hidden;
+}
+
+.overlay {
+	background-color: rgba(4,14,22,.83);
+	height: 100%;
+	width: 100%;
+  padding-bottom: 80px;
+}
+
+#home {
+	background: url("https://www.thoughtco.com/thmb/DF3Q0T5_0O5CmGBTCWCBTcyGgmw=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/JavaScript-58acbb8a3df78c345bad32c2.jpg") no-repeat;
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-blend-mode: normal;
+  background-attachment: fixed;
+}
+
+
+.horizontal-list li {
+  margin-left: 5em;
+  float: left;
+  justify-content: center;
+  font-size: 25px;
+  color: white;
+
+  
+}
+
+#home nav {
+	margin: 0 auto;
+	width: 700px;
+	padding-top: 80px;
+}
+
+#home nav ul {
+	overflow: hidden;
+}
+
+#home nav ul li {
+  color: white;
+	width: 25%;
+}
+
+#home nav a {
+	padding: 16px;
+	padding-right: 30px;
+	display: table-cell;
+}
+
+#home nav.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: black;
+	z-index: 999;
+	padding: 0;
+	transition: background-color .8s;
+	
+}
+
+#home nav.fixed ul {
+    max-width: 700px;
+    min-width: 200px;
+	margin: 0 auto;
+}
+
+
