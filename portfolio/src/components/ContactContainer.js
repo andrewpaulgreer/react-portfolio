@@ -3,7 +3,8 @@ import Contact from "./Contact"
 
 function ContactContainer(){
     return(
-        <container >
+        <div>
+        
       <section className="hero is-fullheight" id="contact">
           <div className="hero-body overlay">
               <div className="container">
@@ -16,7 +17,8 @@ function ContactContainer(){
               </div>
           </div>
       </section>
-      </container>
+      </div>
+
     )
 }
 

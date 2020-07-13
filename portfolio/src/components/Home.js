@@ -2,7 +2,7 @@ import React from "react";
 
 function Home () {
     return (
-        <section id="home">
+        <section className="hero is-fullheight"id="home">
         <div className="overlay">
           <nav role="navigation" className="nav-container">
             <div className="columns is-centered" id="navComponents">

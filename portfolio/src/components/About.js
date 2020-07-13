@@ -1,4 +1,5 @@
 import React from "react";
+import ObserverWrapper from '@emarketeross/simple-react-intersection-observer'
 
 function About (){
     return(
@@ -7,11 +8,13 @@ function About (){
           <section className="columns">
             <div className="column is-one-quarter">
               <figure className="image">
+                <ObserverWrapper>
                 <img
                   className="is-rounded"
                   src="/media/andrewgreer.jpeg"
                   alt="profile-pic"
                 />
+                </ObserverWrapper>
               </figure>
               <div className="content contact-info contact-info">
                 <p className="email">
@@ -45,10 +48,10 @@ function About (){
                 <strong>Skills:</strong>
               </h2>
               <p className="content is-medium">
-              <strong>Front-end:</strong> HTML 5, CSS3, Javascript, React jQuery, Ajax, consuming RESTful API’s, handlebars.js, Bootstrap, Bulma.
+              <strong>Front-end:</strong> HTML 5, CSS3, Javascript, React, jQuery, Ajax,RESTful API consumption / creation, handlebars.js, Bootstrap, Bulma.
               </p>
               <p className="content is-medium">
-              <strong>Backend:</strong> Node.js, MySQL, Mongodb, MySQL Server, express, sequelize ORM, passport.js.
+              <strong>Backend:</strong> Node.js, MySQL, Mongodb, MySQL Server, Mongoose, express, sequelize ORM, passport.js.
               </p>
               <nav className="level">
                 <div className="level-item has-text-centered">

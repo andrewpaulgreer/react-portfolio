@@ -50,9 +50,9 @@ html, body {
 	width: 0px;
 	border-left: 30px solid transparent;
 	border-right: 30px solid transparent;
-	border-top: 30px solid #131c23;
+	
   margin: 0 auto;
-  margin-bottom: 0px;
+  margin-bottom: 0em;
 	content: "";
 	display: flex;
 }
@@ -144,7 +144,7 @@ html, body {
 	background-color: rgba(4,14,22,.83);
 	height: 100%;
 	width: 100%;
-  padding-bottom: 80px;
+  
 }
 
 #home {
@@ -212,5 +212,24 @@ html, body {
 }
 
 #contact .overlay {
-	background: rgba(0, 0, 0, 0.87);
+  background: rgba(0, 0, 0, 0.87);
+  height: 100%;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 5%;
+  width: 100%;
+  padding-bottom: 1em;
+  background-color:lightseagreen;
+  color: black;
+  text-align: center;
+  
+}
+
+.box{
+  
+  background-color: rgb(247, 231, 202);
 }
